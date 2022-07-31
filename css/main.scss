@@ -1,28 +1,8 @@
 
-@font-face {
-    font-family: platia;
-    src: url(/fonts/plateia/Plateia\Bold.ttf);
-  }
-
-@font-face {
-    font-family: roboto;
-    src: url(/fonts/roboto/Roboto-Light.ttf);
-  }
-
-@font-face {
-    font-family: robotomono;
-    src: url(/fonts/robotomono/RobotoMono-Regular.ttf);
-  }
-
-@font-face {
-    font-family: audiowide;
-    src: url(/fonts/audiowide/Audiowide-Regular.ttf);
-  }
-
-@font-face {
-    font-family: metal;
-    src: url(/fonts/metal/MetalMania-Regular.ttf);
-  }
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
 
 @keyframes scroll {
     0%   {left:0px;}
@@ -44,7 +24,6 @@ html {
   }
 
 body {
-    font-family: platia;
     background-color: rgb(0, 0, 0);
     line-height: 1rem;
     margin: 0;
@@ -117,7 +96,7 @@ input::-webkit-inner-spin-button {
     }
 
     a {
-        font-family: "Roboto Mono",monospace;
+        font-family: 'Roboto Mono', monospace;
         font-size: 15px;
         color: inherit;
         text-decoration: inherit;
@@ -145,7 +124,7 @@ input::-webkit-inner-spin-button {
                 }
 
                 .logo-font {
-                    font-family: metal;
+                    font-family: 'Metal Mania', cursive;
                     font-size: 2.5rem;
                 }
             } 
@@ -197,7 +176,7 @@ input::-webkit-inner-spin-button {
             .pink {
         
                 .connect {
-                    font-family: audiowide;
+                    font-family: 'Audiowide', cursive;
                     font-size: .75rem;
                     line-height: 1rem;
                     border-width: 0;
@@ -260,7 +239,7 @@ input::-webkit-inner-spin-button {
                     
                     button {
                         position: relative;
-                        font-family: audiowide;
+                        font-family: 'Audiowide', cursive;
                         color: white;
                         font-size: .75rem;
                         font-weight: bold;
@@ -315,7 +294,7 @@ input::-webkit-inner-spin-button {
         align-items: center;
         text-align: center;
         justify-content: center;
-        font-family: robotomono;
+        font-family: 'Roboto Mono', monospace;
         z-index: 20;
         height: 435px;
         padding-left: 1rem;
@@ -348,7 +327,7 @@ input::-webkit-inner-spin-button {
                 
                 button {
                     position: relative;
-                    font-family: audiowide;
+                    font-family: 'Audiowide', cursive;
                     color: white;
                     font-size: .75rem;
                     font-weight: bold;
@@ -391,7 +370,7 @@ input::-webkit-inner-spin-button {
         animation-play-state: running;
         
         span {
-            font-family: robotomono,roboto,plateia;
+            font-family: 'Roboto Mono', monospace;
         }
     }
 }
@@ -407,7 +386,7 @@ input::-webkit-inner-spin-button {
     line-height: 1.4rem;
 
     .container-whitepaper {
-        font-family: robotomono;
+        font-family: 'Roboto Mono', monospace;
         font-size: 15px;
         padding: .25rem .25rem 2rem .25rem;
         margin-left: auto;
@@ -456,7 +435,7 @@ input::-webkit-inner-spin-button {
                         
                         button {
                             position: relative;
-                            font-family: audiowide;
+                            font-family: 'Audiowide', cursive;
                             color: white;
                             font-size: .75rem;
                             font-weight: bold;
@@ -503,7 +482,7 @@ input::-webkit-inner-spin-button {
     background-size: cover;
 
     .roadmap-flex {
-        font-family: robotomono;
+        font-family: 'Roboto Mono', monospace;
         font-size: 15px;
         padding: .25rem .25rem 2rem .25rem;
         margin-left: auto;
@@ -514,7 +493,7 @@ input::-webkit-inner-spin-button {
         align-items: center;
 
         .roadmap-title {
-            font-family: audiowide;
+            font-family: 'Audiowide', cursive;
             font-size: 1.6rem;
             line-height: 2rem;
             font-weight: bold;
@@ -537,7 +516,7 @@ input::-webkit-inner-spin-button {
 
                 .title {
                     background-image: url(../images/PhaseBk.png);
-                    font-family: audiowide;
+                    font-family: 'Audiowide', cursive;
                     font-weight: bold;
                     width: 16rem;
                     padding-left: 3rem;
@@ -609,7 +588,7 @@ input::-webkit-inner-spin-button {
         .title {
             font-size: 1.8rem;
             line-height: 2rem;
-            font-family: audiowide;
+            font-family: 'Audiowide', cursive;
         }
 
         .team-text {
@@ -684,7 +663,7 @@ input::-webkit-inner-spin-button {
             margin-top: 4rem;
             font-size: 1.8rem;
             line-height: 2rem;
-            font-family: audiowide;
+            font-family: 'Audiowide', cursive;
             text-align: center;
         }
 
@@ -738,11 +717,11 @@ input::-webkit-inner-spin-button {
             font-size: 1.6rem;
             line-height: 1.75rem;
             padding-bottom: 4rem;
-            font-family: audiowide;
+            font-family: 'Audiowide', cursive;
         }
 
         .question {
-            font-family: robotomono;
+            font-family: 'Roboto Mono', monospace;
 
             .long-text {
                 margin-top: 1rem;
@@ -757,7 +736,7 @@ input::-webkit-inner-spin-button {
             
             button {
                 position: relative;
-                font-family: audiowide;
+                font-family: 'Audiowide', cursive;
                 color: white;
                 font-size: .75rem;
                 font-weight: bold;
@@ -795,7 +774,7 @@ input::-webkit-inner-spin-button {
         }
 
         .logo-font {
-            font-family: metal;
+            font-family: 'Metal Mania', cursive;
             font-size: 2.3rem;
         }
     }
@@ -852,7 +831,7 @@ input::-webkit-inner-spin-button {
             }
 
             .logo-font {
-                font-family: metal;
+                font-family: 'Metal Mania', cursive;
                 font-size: 420%;
             }
         } 
@@ -868,7 +847,7 @@ input::-webkit-inner-spin-button {
             
             button {
                 position: relative;
-                font-family: audiowide;
+                font-family: 'Audiowide', cursive;
                 color: white;
                 font-size: .75rem;
                 font-weight: bold;
@@ -939,7 +918,7 @@ input::-webkit-inner-spin-button {
                 
                 button {
                     position: relative;
-                    font-family: audiowide;
+                    font-family: 'Audiowide', cursive;
                     color: white;
                     font-size: .75rem;
                     font-weight: bold;
@@ -1121,7 +1100,7 @@ input::-webkit-inner-spin-button {
             
             button {
                 position: relative;
-                font-family: audiowide;
+                font-family: 'Audiowide', cursive;
                 color: white;
                 font-size: 1rem;
                 font-weight: bold;
@@ -1215,7 +1194,7 @@ input::-webkit-inner-spin-button {
                 
                 button {
                     position: relative;
-                    font-family: audiowide;
+                    font-family: 'Audiowide', cursive;
                     color: white;
                     font-size: .75rem;
                     font-weight: bold;
