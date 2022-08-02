@@ -148,6 +148,7 @@ input::-webkit-inner-spin-button {
   height: 37px;
   padding-right: 0.5rem;
   margin-right: 1rem;
+  cursor: pointer;
 }
 .navbar .flex-lists .mobile-menu-exit {
   width: 16px;
